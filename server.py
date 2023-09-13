@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from dataclasses import dataclass
 
+from dataclasses import dataclass
 @dataclass
 class Result:
     result: int
